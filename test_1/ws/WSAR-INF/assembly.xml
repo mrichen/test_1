@@ -16,16 +16,16 @@
         </cc:workday-in>
         <cc:async-mediation id="AsyncMediation">
             <cc:steps>
-                <cc:log id="Log">
-                    <cc:log-message>
-                        <cc:message-content/>
-                    </cc:log-message>
-                </cc:log>
                 <cc:write id="Write">
                     <cc:message>
                         <cc:message-content/>
                     </cc:message>
                 </cc:write>
+                <cc:log id="Log">
+                    <cc:log-message>
+                        <cc:message-content/>
+                    </cc:log-message>
+                </cc:log>
             </cc:steps>
         </cc:async-mediation>
 	</cc:assembly>
